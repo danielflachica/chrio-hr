@@ -1,0 +1,58 @@
+.cb-container div[id^="new"],
+.cb-login-container div[id^="new"] {
+    display: none !important;
+}
+
+/* .cb-container section[data-cb-name="cbTable"] {
+    width: 100% !important;
+} */
+
+.cb-container form {
+    width: 100% !important;
+}
+
+.cb-login-container form {
+    /* width: 100% !important; */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+/** Hide all cb Search buttons */
+.cbSearchButtonContainer,
+input[name="searchID"] {
+    display: none !important;
+}
+
+.cb-tabular-search-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: -6px !important;
+    /* padding-top: 32px; */
+}
+
+.cb-tabular-report article {
+    width: 100% !important;
+}
+
+.cb-table-read-only tr.cbResultSetTableHeader th:last-of-type,
+.cb-table-read-only tr.cbResultSetDataRow td:last-of-type,
+.cb-table-read-only section.cbSearchSpa {
+    display: none !important;
+}
+
+button.disabled {
+    cursor: not-allowed !important;
+}
+
+/** List - User */
+form[action*="42cbdf1f2df049ae8d42"] .cbResultSetActionsContainerCellspacing {
+    display: none !important;
+}
+
+#chrioLogo {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
